@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:miui="http://schemas.android.com/apk/res/miui">
+    <item android:id="@+id/action_search"
+          android:icon="?miui:attr/actionBarSearchIcon"
+          android:title="@string/action_bar_search"
+          android:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_add"
+          android:icon="?miui:attr/actionBarNewIcon"
+          android:title="@string/action_bar_add"/>
+
+    <item android:id="@+id/action_edit"
+          android:icon="?miui:attr/actionBarEditIcon"
+          android:showAsAction="always"
+          android:title="@string/action_bar_edit"/>
+
+    <item android:id="@+id/action_share"
+          android:icon="?miui:attr/actionBarShareIcon"
+          android:title="@string/action_bar_share"
+          android:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_sort"
+          android:icon="?miui:attr/actionBarMoveIcon"
+          android:title="@string/action_bar_sort"
+          android:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/action_sort_size"
+                  android:icon="@android:drawable/ic_menu_sort_by_size"
+                  android:title="@string/action_bar_sort_size"/>
+
+            <item android:id="@+id/action_sort_alpha"
+                  android:icon="?miui:attr/actionBarMoveIcon"
+                  android:title="@string/action_bar_sort_alpha"/>
+        </menu>
+    </item>
+</menu>

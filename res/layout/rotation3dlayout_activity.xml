@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:miui="http://schemas.android.com/apk/res/miui"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <miui.widget.Rotation3DLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        miui:autoGravityRotation="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/min_dial"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/default_clock_hour"
+            miui:layout_zdistance="100"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/default_clock_minute"
+            miui:layout_zdistance="300"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/default_clock_second"
+            miui:layout_zdistance="900"/>
+    </miui.widget.Rotation3DLayout>
+
+</FrameLayout>

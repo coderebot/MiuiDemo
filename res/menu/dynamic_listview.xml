@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+ -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/duration_default"
+        android:title="Default Duration"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/duration_2"
+        android:title="Duration x 2"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/duration_4"
+        android:title="Duration x 4"
+        android:showAsAction="never"/>
+</menu>

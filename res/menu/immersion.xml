@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:miui="http://schemas.android.com/apk/res/miui">
+    <item android:id="@+id/action_search"
+          android:icon="?miui:attr/actionBarSearchIcon"
+          android:title="@string/action_bar_search" />
+
+    <item android:id="@+id/action_toggle_actionbar"
+          android:icon="?miui:attr/actionBarSearchIcon"
+          android:title="@string/action_toggle_actionbar" />
+
+    <item android:id="@+id/action_change_display_mode"
+          android:icon="?miui:attr/actionBarSearchIcon"
+          android:title="@string/action_change_display_mode" />
+</menu>

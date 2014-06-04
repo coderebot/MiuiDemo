@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:miui="http://schemas.android.com/apk/res/miui"
+    android:variablePadding="true">
+    <item miui:state_single_h="true" miui:state_first_v="true" android:drawable="@drawable/list_view_item_bg_light_single_h_first_v" />
+    <item miui:state_single_h="true" miui:state_middle_v="true" android:drawable="@drawable/list_view_item_bg_light_single_h_middle_v" />
+    <item miui:state_single_h="true" miui:state_last_v="true" android:drawable="@drawable/list_view_item_bg_light_single_h_last_v" />
+    <item miui:state_single_h="true" miui:state_single_v="true" android:drawable="@drawable/list_view_item_bg_light_single_h_single_v" />
+    <item miui:state_first_h="true" miui:state_first_v="true" android:drawable="@drawable/list_view_item_bg_light_first_h_first_v" />
+    <item miui:state_first_h="true" miui:state_middle_v="true" android:drawable="@drawable/list_view_item_bg_light_first_h_middle_v" />
+    <item miui:state_first_h="true" miui:state_last_v="true" android:drawable="@drawable/list_view_item_bg_light_first_h_last_v" />
+    <item miui:state_first_h="true" miui:state_single_v="true" android:drawable="@drawable/list_view_item_bg_light_first_h_single_v" />
+    <item miui:state_middle_h="true" miui:state_first_v="true" android:drawable="@drawable/list_view_item_bg_light_middle_h_first_v" />
+    <item miui:state_middle_h="true" miui:state_middle_v="true" android:drawable="@drawable/list_view_item_bg_light_middle_h_middle_v" />
+    <item miui:state_middle_h="true" miui:state_last_v="true" android:drawable="@drawable/list_view_item_bg_light_middle_h_last_v" />
+    <item miui:state_middle_h="true" miui:state_single_v="true" android:drawable="@drawable/list_view_item_bg_light_middle_h_single_v" />
+    <item miui:state_last_h="true" miui:state_first_v="true" android:drawable="@drawable/list_view_item_bg_light_last_h_first_v" />
+    <item miui:state_last_h="true" miui:state_middle_v="true" android:drawable="@drawable/list_view_item_bg_light_last_h_middle_v" />
+    <item miui:state_last_h="true" miui:state_last_v="true" android:drawable="@drawable/list_view_item_bg_light_last_h_last_v" />
+    <item miui:state_last_h="true" miui:state_single_v="true" android:drawable="@drawable/list_view_item_bg_light_last_h_single_v" />
+    <item android:drawable="@drawable/list_view_item_bg_light_single_h_single_v" />
+</selector>

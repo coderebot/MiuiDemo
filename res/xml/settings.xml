@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Settings1" >
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_1" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_2" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_3" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Settings2" >
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_4" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Settings3" >
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_5" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_6" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_7" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_8" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_9" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_1" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_2" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_3" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Settings4" >
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_4" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Settings" >
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_5" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_6" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_7" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_8" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_9" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_1" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_2" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_3" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_4" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_5" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Settings5" >
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_6" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_7" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_8" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_9" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_1" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_2" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_3" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Settings6" >
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_4" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_5" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_6" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_7" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_8" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Settings7" >
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_9" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_1" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_2" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_3" />
+        <com.example.miui.widget.adaptivedrawable.CostumPreference android:title="@string/btn_4" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

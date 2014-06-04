@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+-->
+<resources>
+    <color name="actionmode_bar_bg">#ccffccff</color>
+    <color name="actionmode_split_bar_bg">#ccccffcc</color>
+
+    <color name="action_bar_splitbar_bg_color">#ffeeccee</color>
+</resources>

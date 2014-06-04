@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+-->
+<resources>
+    <item type="id" name="action_menu_item" />
+    <item type="id" name="show_split_action_bar" />
+    <item type="id" name="hide_split_action_bar" />
+    <item type="id" name="set_action_button_title" />
+    <item type="id" name="set_action_button_icon" />
+    <item type="id" name="set_action_button_visibility" />
+    <item type="id" name="add_action_button" />
+    <item type="id" name="remove_action_button" />
+    <item type="id" name="clear_action_button" />
+</resources>

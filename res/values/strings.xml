@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+-->
+<resources>
+    <string name="app_name">Miui Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings2">Settings2</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Demos -->
+    <string name="actionbar_mechanics">Mechanics</string>
+    <string name="actionbar_tabs">Tabs</string>
+    <string name="actionbar_display_options">Display Options</string>
+    <string name="actionbar_usage">Usage</string>
+    <string name="actionbar_list_fragment">List Fragment</string>
+    <string name="actionbar_searchview">SearchView</string>
+    <string name="actionbar_immersionmenu">ImmersionMenu</string>
+
+    <string name="action_bar_mechanics">App/Action Bar/Action Bar Mechanics</string>
+    <string name="action_bar_usage">App/Action Bar/Action Bar Usage</string>
+    <string name="action_bar_tabs">App/Action Bar/Action Bar Tabs</string>
+    <string name="action_bar_settings_action_provider">App/Action Bar/Action Provider/Settings Action Provider</string>
+    <string name="action_bar_share_action_provider">App/Action Bar/Action Provider/Share Action Provider</string>
+    <string name="action_bar_settings_action_provider_no_handling">Handling in onOptionsItemSelected avoided</string>
+
+    <string name="action_bar_search">Search</string>
+    <string name="action_bar_add">Add</string>
+    <string name="action_bar_edit">Edit</string>
+    <string name="action_bar_share">Share</string>
+    <string name="action_bar_sort">Sort</string>
+    <string name="action_bar_sort_alpha">Alphabetically</string>
+    <string name="action_bar_sort_size">By size</string>
+    <string name="action_bar_share_with">Share with...</string>
+    <string name="action_bar_settings">Settings</string>
+    <string name="action_toggle_actionbar">Toggle ActionBar</string>
+    <string name="action_change_display_mode">Display Mode</string>
+
+    <string name="action_bar_display_options">App/Action Bar/Display Options</string>
+    <string name="toggle_home_as_up">DISPLAY_HOME_AS_UP</string>
+    <string name="toggle_show_home">DISPLAY_SHOW_HOME</string>
+    <string name="toggle_use_logo">DISPLAY_USE_LOGO</string>
+    <string name="toggle_show_title">DISPLAY_SHOW_TITLE</string>
+    <string name="toggle_show_custom">DISPLAY_SHOW_CUSTOM</string>
+    <string name="toggle_navigation">Navigation</string>
+    <string name="toggle_progress">Toggle progress</string>
+    <string name="toggle_progress_indeterminate">Progress indeterminate</string>
+    <string name="cycle_custom_gravity">Cycle Custom View Gravity</string>
+
+    <string name="display_options_custom_button">Custom View!</string>
+    <string name="display_options_menu_item">Menu Item</string>
+
+    <string name="btn_add_tab">Add new tab</string>
+    <string name="btn_remove_tab">Remove last tab</string>
+    <string name="btn_toggle_tabs">Toggle tab mode</string>
+    <string name="btn_remove_all_tabs">Remove all tabs</string>
+
+    <!-- Arrow popup window -->
+    <string name="arrow_bottom">Arrow bottom</string>
+    <string name="arrow_top">Arrow top</string>
+    <string name="arrow_left">Arrow left</string>
+    <string name="arrow_right">Arrow right</string>
+
+    <!-- Preferences string -->
+    <string name="inline_preferences">In-line preferences</string>
+    <string name="miui_preferences">Miui preferences</string>
+    <string name="dialog_based_preferences">Dialog-based preferences</string>
+    <string name="launch_preferences">Launch preferences</string>
+    <string name="preference_attributes">Preference attributes</string>
+    <string name="button_preferences">Button preferences</string>
+    <string name="radiobutton_preference_category">Radiobutton preferenceCategory</string>
+    <string name="radiobutton_preference_1">Radiobutton preference 1</string>
+    <string name="radiobutton_preference_2">Radiobutton preference 2</string>
+    <string name="animated_preference">Animated preference</string>
+
+    <string name="title_checkbox_preference">Checkbox preference</string>
+    <string name="summary_checkbox_preference">This is a checkbox</string>
+
+    <string name="title_radiobutton_preference">Radiobutton preference</string>
+    <string name="summary_radiobutton_preference">This is a radiobutton</string>
+
+    <string name="title_switch_preference">Switch preference</string>
+    <string name="summary_switch_preference">This is a switch</string>
+    <string name="summary_switch_preference_yes_no">This is a switch with custom text</string>
+
+    <string name="title_yesno_preference">Yes or no preference</string>
+    <string name="summary_yesno_preference">An example that uses a yes/no dialog</string>
+    <string name="dialog_title_yesno_preference">Do you like bananas?</string>
+
+    <string name="title_edittext_preference">Edit text preference</string>
+    <string name="summary_edittext_preference">An example that uses an edit text dialog</string>
+    <string name="dialog_title_edittext_preference">Enter your favorite animal</string>
+
+    <string name="title_list_preference">List preference</string>
+    <string name="summary_list_preference">An example that uses a list dialog</string>
+    <string name="dialog_title_list_preference">Choose one</string>
+
+    <string name="title_screen_preference">Screen preference</string>
+    <string name="summary_screen_preference">Shows another screen of preferences</string>
+
+    <string name="title_fragment_preference">Fragment preference</string>
+    <string name="summary_fragment_preference">Shows another fragment of preferences</string>
+
+    <string name="title_next_screen_toggle_preference">Toggle preference</string>
+    <string name="summary_next_screen_toggle_preference">Preference that is on the next screen but same hierarchy</string>
+
+    <string name="title_intent_preference">Intent preference</string>
+    <string name="summary_intent_preference">Launches an Activity from an Intent</string>
+
+    <string name="title_my_preference">My preference</string>
+    <string name="summary_my_preference">This is a custom counter preference</string>
+
+    <string name="title_advanced_toggle_preference">Haunted preference</string>
+    <string name="summary_on_advanced_toggle_preference">I\'m on! :)</string>
+    <string name="summary_off_advanced_toggle_preference">I\'m off! :(</string>
+
+    <string name="title_parent_preference">Parent checkbox preference</string>
+    <string name="summary_parent_preference">This is visually a parent</string>
+    <string name="title_child_preference">Child checkbox preference</string>
+    <string name="summary_child_preference">This is visually a child</string>
+
+    <string name="btn_1">Button 1</string>
+    <string name="btn_2">Button 2</string>
+    <string name="btn_3">Button 3</string>
+    <string name="btn_4">Button 4</string>
+    <string name="btn_5">Button 5</string>
+    <string name="btn_6">Button 6</string>
+    <string name="btn_7">Button 7</string>
+    <string name="btn_8">Button 8</string>
+    <string name="btn_9">Button 9</string>
+    <string name="menu_setting">Menu Setting</string>
+    <string name="progressbar_1_plus">+</string>
+    <string name="progressbar_1_minus">-</string>
+    <string name="progressbar_1_default_progress">Default progress:</string>
+    <string name="progressbar_1_secondary_progress">Secondary progress:</string>
+    <string name="progressbar_3_progress">Show Progress</string>
+    <string name="progressbar_3_indeterminate">Show Indeterminate</string>
+    <string name="progressbar_3_indeterminate_no_title">Show Indeterminate No Title</string>
+    <string name="progressbar_4_toggle">Toggle Indeterminate</string>
+    <string name="seekbar_tracking_on">Tracking on</string>
+    <string name="seekbar_tracking_off">Tracking off</string>
+    <string name="seekbar_from_touch">from touch</string>
+    <string name="ratingbar_rating">Rating:</string>
+    <!-- label of numberpickers -->
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+
+    <string name="btn_add_screen">Add screen</string>
+    <string name="btn_remove_screen">Remove screen</string>
+    <string name="chkbx_scroll_whole">Scroll whole screen</string>
+
+    <!-- Alert dialog demo string -->
+    <string name="alert_dialog_simple">simple</string>
+    <string name="alert_dialog_simple_without_title">simple without title</string>
+    <string name="alert_dialog_multi_choice_cursor">multi choice cursor</string>
+    <string name="alert_dialog_multi_choice">multi choice</string>
+    <string name="alert_dialog_single_choice">single choice</string>
+    <string name="alert_dialog_list_item">list item</string>
+    <string name="alert_dialog_progress">progress</string>
+    <string name="alert_dialog_progress_horizontal">progress horizontal</string>
+    <string name="alert_dialog_custom">custom alert dialog</string>
+    <string name="alert_dialog_timepicker">TimePickerDialog</string>
+    <string name="alert_dialog_datepicker">DatePickerDialog</string>
+    <string name="alert_dialog_datetimepicker">DateTimePickerDialog</string>
+
+    <!-- Button demo -->
+    <string name="button_label">Button</string>
+    <string name="check_box_label">CheckBox</string>
+    <string name="radio_button_label">RadioButton</string>
+    <string name="switch_label">Switch</string>
+    <string name="sliding_button_label">SlidingButton</string>
+    <string name="dialog_button_label">DialogButton</string>
+
+    <!-- Search View Demo -->
+    <string name="search_hint">Search</string>
+
+    <!-- Spinner demo -->
+    <string name="spinner_1_color">Color:</string>
+    <string name="spinner_1_planet">Planet:</string>
+    <string name="spinner_1_color_prompt">Choose a color</string>
+    <string name="spinner_1_planet_prompt">Choose a planet</string>
+
+    <!-- AutoCompleteView demo -->
+    <string name="autocomplete_1_instructions">Type in the text field for auto-completion.</string>
+    <string name="autocomplete_1_country">Country:</string>
+    <string name="autocomplete_1_focus">Give me Focus</string>
+    <string name="autocomplete_2_country">Country:</string>
+    <string name="autocomplete_2_focus">Give me Focus</string>
+    <string name="autocomplete_3_button_1">Scroll</string>
+    <string name="autocomplete_3_button_2">Down</string>
+    <string name="autocomplete_3_button_3">To</string>
+    <string name="autocomplete_3_button_4">See</string>
+    <string name="autocomplete_3_button_5">Auto</string>
+    <string name="autocomplete_3_button_6">Complete</string>
+    <string name="autocomplete_3_button_7">Text</string>
+    <string name="autocomplete_3_button_8">View</string>
+    <string name="autocomplete_3_button">Button</string>
+    <string name="autocomplete_3_country">Country:</string>
+    <string name="autocomplete_4_instructions">Type in the text field for auto-completion.</string>
+    <string name="autocomplete_4_name">Name:</string>
+    <string name="autocomplete_4_message">You must have contacts in your address book. Typing * will show all of your contacts.</string>
+    <string name="autocomplete_5_instructions">Type in the text field for auto-completion.</string>
+    <string name="autocomplete_5_hint">Typing * will show all of your contacts.</string>
+    <string name="autocomplete_5_name">Name:</string>
+    <string name="autocomplete_6_to">To:</string>
+    <string name="autocomplete_6_to_hint">To</string>
+    <string name="autocomplete_6_subject">Subject:</string>
+    <string name="autocomplete_7_instructions">Type in the text field for auto-completion by words.</string>
+    <string name="autocomplete_7_country">Country:</string>
+    <string name="autocomplete_7_focus">Give me Focus</string>
+
+    <!-- License activity demo -->
+    <string name="show_copyright">Show copyright</string>
+    <string name="show_privacy">Show privacy</string>
+    <string name="show_agreement">Show agreement</string>
+
+    <string name="start_record">Start record</string>
+    <string name="pause_record">Pause record</string>
+    <string name="resume_record">Resume record</string>
+    <string name="stop_record">Stop record</string>
+    <string name="play_record">Play</string>
+    <string name="run_demo">Run!</string>
+    <string name="source_btn">Source</string>
+</resources>

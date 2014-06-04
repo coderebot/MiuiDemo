@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+!-->
+<resources>
+    <string-array name="entries_list_preference">
+        <item>Alpha Option 01</item>
+        <item>Beta Option 02</item>
+        <item>Charlie Option 03</item>
+    </string-array>
+
+    <string-array name="entryvalues_list_preference">
+        <item>alpha</item>
+        <item>beta</item>
+        <item>charlie</item>
+    </string-array>
+
+    <string-array name="entries_transition_type">
+        <item>SCREEN_TRANSITION_TYPE_CLASSIC</item>
+        <item>SCREEN_TRANSITION_TYPE_CLASSIC_NO_OVER_SHOOT</item>
+        <item>SCREEN_TRANSITION_TYPE_CROSSFADE</item>
+        <item>SCREEN_TRANSITION_TYPE_FALLDOWN</item>
+        <item>SCREEN_TRANSITION_TYPE_CUBE</item>
+        <item>SCREEN_TRANSITION_TYPE_LEFTPAGE</item>
+        <item>SCREEN_TRANSITION_TYPE_RIGHTPAGE</item>
+        <item>SCREEN_TRANSITION_TYPE_STACK</item>
+        <item>SCREEN_TRANSITION_TYPE_ROTATE</item>
+        <item>SCREEN_TRANSITION_TYPE_CUSTOM</item>
+    </string-array>
+    <string-array name="entries_screen_width">
+        <item>SCREEN_WIDTH_1</item>
+        <item>SCREEN_WIDTH_1/2</item>
+        <item>SCREEN_WIDTH_1/3</item>
+    </string-array>
+
+    <!-- Used in Widget/Spinner1.java -->
+    <string-array name="colors">
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>violet</item>
+    </string-array>
+
+    <!-- Used in Widget/Spinner1.java -->
+    <string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
+
+    <string-array name="duration_entries">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>:</item>
+    </string-array>
+
+    <array name="duration_entryValues">
+        <item>@drawable/clock_0</item>
+        <item>@drawable/clock_1</item>
+        <item>@drawable/clock_2</item>
+        <item>@drawable/clock_3</item>
+        <item>@drawable/clock_4</item>
+        <item>@drawable/clock_5</item>
+        <item>@drawable/clock_6</item>
+        <item>@drawable/clock_7</item>
+        <item>@drawable/clock_8</item>
+        <item>@drawable/clock_9</item>
+        <item>@drawable/clock_colon</item>
+    </array>
+</resources>

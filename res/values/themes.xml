@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+-->
+
+<resources>
+    <!-- Application theme. -->
+    <style name="Theme" parent="miui:Theme.Light">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="miui:navigationLayoutStyle">@style/NavigationLayout</item>
+    </style>
+
+    <style name="Theme.NoTitle" parent="miui:Theme.Light.NoTitle">
+        <item name="miui:navigationLayoutStyle">@style/NavigationLayout</item>
+    </style>
+
+    <style name="Theme.Navigation" parent="miui:Theme.Light.Navigation">
+        <item name="miui:navigationLayoutStyle">@style/NavigationLayout</item>
+    </style>
+
+    <style name="Theme.Dark" parent="miui:Theme.Dark">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="miui:navigationLayoutStyle">@style/NavigationLayout</item>
+    </style>
+
+    <!-- theme for ActionBar Title -->
+    <style name="ActionBar" parent="Theme">
+
+    </style>
+
+    <!-- CODE-BEGIN ActionBarTitleTheme -->
+    <style name="ActionBar.Title">
+        <item name="android:actionBarStyle">@style/actionbar_title</item>
+        <!-- set the actionbar height -->
+        <!-- CODE-BEGIN ActionBarSize -->
+        <item name="android:actionBarSize">80dip</item>
+        <!-- CODE-END ActionBarSize -->
+        <!-- set the home up -->
+        <!-- CODE-BEGIN ActionBarHomeAsUp -->
+        <item name="android:homeAsUpIndicator">@drawable/bar_back</item>
+        <!-- CODE-END ActionBarHomeAsUp -->
+        <!-- set the status bar transparent dark -->
+        <!-- CODE-BEGIN ActionBarTranslucentStatus -->
+        <item name="*miui:windowTranslucentStatus">transparentDark</item>
+        <!-- CODE-END ActionBarTranslucentStatus -->
+        <!-- CODE-BEGIN ActionBarContentAutoFitSystemWindow -->
+        <item name="miui:contentAutoFitSystemWindow">true</item>
+        <!-- CODE-END ActionBarContentAutoFitSystemWindow -->
+        <!-- CODE-BEGIN ActionBarCoustomViewAutoFitSystemWindow -->
+        <item name="miui:customViewAutoFitSystemWindow">true</item>
+        <!-- CODE-END ActionBarCoustomViewAutoFitSystemWindow -->
+    </style>
+    <!-- CODE-END ActionBarTitleTheme -->
+
+    <!-- CODE-BEGIN ActionBarTabTheme -->
+    <style name="ActionBar.Tab">
+        <item name="android:actionBarStyle">@style/actionbar_tab_actionbar</item>
+        <item name="android:actionBarTabStyle">@style/actionbar_tab</item>
+        <item name="android:actionBarTabBarStyle">@style/actionbar_tabbar</item>
+        <item name="android:actionBarTabTextStyle">@style/actionbar_tabtext</item>
+    </style>
+    <!-- CODE-END ActionBarTabTheme -->
+
+    <!-- CODE-BEGIN ActionBarSplitTheme -->
+    <style name="ActionBar.SplitBar">
+        <item name="android:actionBarSplitStyle">@style/actionbar_split</item>
+        <item name="android:actionButtonStyle">@style/actionbar_action_button</item>
+        <item name="android:actionOverflowButtonStyle">@style/actionbar_action_button_more</item>
+        <!-- action bar split bar background -->
+        <item name="*miui:actionBarSplitBackground">@color/action_bar_splitbar_bg_color</item>
+        <!-- action bar split bar expand background only in PHONE -->
+        <item name="*miui:actionBarExpandBackground">@color/action_bar_splitbar_bg_color</item>
+        <!-- set the expand menu view list background -->
+        <item name="*miui:listMenuBackground">@color/action_bar_splitbar_bg_color</item>
+        <!-- Menu Title Text style in Popup Menu Window -->
+        <item name="android:textAppearanceLargePopupMenu">@style/actionbar_popupmenu_titletext</item>
+        <!-- Menu Shortcut Text style in Popup Menu Window -->
+        <item name="android:textAppearanceSmallPopupMenu">@style/actionbar_popupmenu_shortcuttext</item>
+        <!-- Popup Menu Window Style, Only in PAD Need the two attribute-->
+        <item name="android:popupMenuStyle">@style/actionbar_popupmenu_window</item>
+        <item name="android:dropDownListViewStyle">@style/actionbar_popupmenu_dropdownlistview</item>
+    </style>
+    <!-- CODE-END ActionBarSplitTheme -->
+
+
+    <!-- CODE-BEGIN ActionBarMovableTheme -->
+    <style name="ActionBar.Movable" parent="miui:Theme.Light.ActionBarMovable">
+        <item name="android:actionBarStyle">@style/ActionBarStyle.Movable</item>
+        <item name="miui:actionBarMovableLayoutStyle">@style/ActionBarMovableLayout</item>
+    </style>
+    <!-- CODE-END ActionBarMovableTheme -->
+
+    <!-- CODE-BEGIN ActionBarActionModeTheme -->
+    <style name="ActionBar.ActionMode">
+        <item name="android:actionModeStyle">@style/actionbar_actionmode</item>
+        <item name="android:actionModeBackground">@color/actionmode_bar_bg</item>
+        <item name="android:actionModeSplitBackground">@color/actionmode_split_bar_bg</item>
+        <item name="miui:actionModeButtonStyle">@style/actionbar_actionmode_actionbutton</item>
+        <item name="miui:actionModeCancelButtonStyle">@style/actionbar_actionmode_button</item>
+        <item name="miui:actionModeSelectButtonStyle">@style/actionbar_actionmode_button_default</item>
+    </style>
+    <!-- CODE-END ActionBarActionModeTheme -->
+
+    <!-- CODE-BEGIN ActionBarSearchActionModeTheme -->
+    <style name="ActionBar.SearchActionMode">
+        <item name="*miui:editTextSearchStyle">@style/actionbar_search_text</item>
+        <!-- action mode background and cancel button style cannot be changed -->
+    </style>
+    <!-- CODE-END ActionBarSearchActionModeTheme -->
+
+    <style name="AlertDialog" parent="miui:Theme.Light.Dialog.Alert">
+
+    </style>
+
+    <!-- CODE-BEGIN AlertDialogSimpleTheme -->
+    <style name="AlertDialog.Simple">
+        <item name="android:windowTitleStyle">@style/dialog_title</item>
+        <item name="android:textAppearanceMedium">@style/dialog_content</item>
+    </style>
+    <!-- CODE-END AlertDialogSimpleTheme -->
+
+    <!-- CODE-BEGIN AlertDialogSimpleWithoutTitleTheme -->
+    <style name="AlertDialog.WithoutTitle">
+        <item name="android:buttonBarButtonStyle">@style/dialog_buttonbar_button</item>
+        <item name="*miui:buttonBarDefaultButtonStyle">@style/dialog_buttonbar_button_default</item>
+    </style>
+    <!-- CODE-END AlertDialogSimpleWithoutTitleTheme -->
+
+    <!-- CODE-BEGIN AlertDialogProgressTheme -->
+    <style name="AlertDialog.Progress">
+        <item name="android:progressBarStyle">@style/dialog_progressbar</item>
+    </style>
+    <!-- CODE-END AlertDialogProgressTheme -->
+
+    <!-- CODE-BEGIN AlertDialogProgressHorizontalTheme -->
+    <style name="AlertDialog.ProgressHorizontal">
+        <item name="android:progressBarStyleHorizontal">@style/dialog_progressbar_horizontal</item>
+    </style>
+    <!-- CODE-END AlertDialogProgressHorizontalTheme -->
+
+    <!-- CODE-BEGIN AlertDialogListItemTheme -->
+    <style name="AlertDialog.ListItem">
+        <item name="android:listDividerAlertDialog">@drawable/btn_bg_light_single_h_middle_v_pressed</item>
+    </style>
+    <!-- CODE-END AlertDialogListItemTheme -->
+
+     <!-- CODE-BEGIN AlertDialogSingleChoiceTheme -->
+    <style name="AlertDialog.SingleChoice">
+         <item name="android:listChoiceIndicatorSingle">@drawable/ic_logo</item>
+    </style>
+     <!-- CODE-END AlertDialogSingleChoiceTheme -->
+
+     <!-- CODE-BEGIN AlertDialogCustomTheme -->
+    <style name="AlertDialog.Custom" parent="miui:Theme.Light.Dialog">
+        <item name="android:windowTitleStyle">@style/dialog_custom_title</item>
+    </style>
+    <!-- CODE-END AlertDialogCustomTheme -->
+
+    <!-- CODE-BEGIN AlertDialogTimePickerTheme -->
+    <style name="AlertDialog.TimePicker" parent="miui:Theme.Light.Dialog">
+        <item name="android:windowBackground">@drawable/movable_bg</item>
+    </style>
+    <!-- CODE-END AlertDialogTimePickerTheme -->
+
+     <!-- CODE-BEGIN AlertDialogDatePickerTheme -->
+    <style name="AlertDialog.DatePicker" parent="miui:Theme.Light.Dialog">
+        <item name="android:windowTitleStyle">@style/dialog_date_picker_title</item>
+    </style>
+    <!-- CODE-END AlertDialogDatePickerTheme -->
+
+</resources>

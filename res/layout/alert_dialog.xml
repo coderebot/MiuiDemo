@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:orientation="vertical">
+        <Button android:id="@+id/simple_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/alert_dialog_simple"/>
+        <Button android:id="@+id/simple_without_title_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/alert_dialog_simple_without_title"/>
+        <Button android:id="@+id/progress_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/alert_dialog_progress"/>
+        <Button android:id="@+id/progress_horizontal_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/alert_dialog_progress_horizontal"/>
+
+        <Button android:id="@+id/list_item_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/alert_dialog_list_item"/>
+        <Button android:id="@+id/single_choice_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/alert_dialog_single_choice"/>
+        <Button android:id="@+id/multi_choice_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/alert_dialog_multi_choice"/>
+        <Button android:id="@+id/custom_alert_dialog_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/alert_dialog_custom" />
+        <Button android:id="@+id/timepicker_alert_dialog_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/alert_dialog_timepicker" />
+        <Button android:id="@+id/datepicker_alert_dialog_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/alert_dialog_datepicker" />
+        <Button android:id="@+id/datetimepicker_alert_dialog_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/alert_dialog_datetimepicker" />
+    </LinearLayout>
+</ScrollView>

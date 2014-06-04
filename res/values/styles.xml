@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+-->
+<resources>
+
+    <style name="Theme.AutoCompleteTextView" parent="miui:Theme.Light.HidePopupArrow">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="miui:navigationLayoutStyle">@style/NavigationLayout</item>
+    </style>
+
+    <style name="Button" parent="android:Widget.Button">
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/list_view_item_bg_light</item>
+    </style>
+
+    <style name="ListViewItem" parent="android:Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:minHeight">50dip</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/list_view_item_bg_light</item>
+    </style>
+
+    <style name="NavigationLayout" parent="miui:Widget.NavigationLayout">
+        <item name="miui:drawerEnabledOrientation">portrait</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="miui:style/Widget.ActionBar" />
+
+    <!-- CODE-BEGIN ActionBarMovableLayoutStyleMovable -->
+    <style name="ActionBarStyle.Movable">
+        <item name="android:height">300dip</item>
+        <item name="android:background">@drawable/movable_bg</item>
+    </style>
+    <!-- CODE-END ActionBarMovableLayoutStyleMovable -->
+
+    <!-- CODE-BEGIN ActionBarMovableLayoutStyle -->
+    <style name="ActionBarMovableLayout" parent="miui:Widget.ActionBarMovableLayout">
+        <item name="miui:overScrollRange">60dip</item>
+        <item name="miui:scrollRange">120dip</item>
+        <item name="miui:scrollStart">60dip</item>
+    </style>
+    <!-- CODE-END ActionBarMovableLayoutStyle -->
+
+    <!-- action bar style -->
+    <!-- CODE-BEGIN ActionBarTitleStyle -->
+    <style name="actionbar_title" parent="miui:Widget.ActionBar">
+        <!-- set the actionbar background -->
+        <item name="android:background">#ff222222</item>
+        <item name="android:titleTextStyle">@style/actionbar_title_text</item>
+        <item name="android:subtitleTextStyle">@style/actionbar_subtitle_text</item>
+    </style>
+    <!-- CODE-END ActionBarTitleStyle -->
+    <!-- CODE-BEGIN ActionBarTitleTextStyle -->
+    <style name="actionbar_title_text" parent="miui:TextAppearance.WindowTitle">
+        <item name="android:textColor">#ffbb88bb</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <!-- CODE-END ActionBarTitleTextStyle -->
+    <!-- CODE-BEGIN ActionBarSubTitleTextStyle -->
+    <style name="actionbar_subtitle_text" parent="miui:TextAppearance.WindowTitle.Subtitle">
+        <item name="android:textColor">#ff88bb88</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!-- CODE-END ActionBarSubTitleTextStyle -->
+
+    <!-- actionbar tab style -->
+    <!-- CODE-BEGIN ActionBarTabActionBarStyle -->
+    <style name="actionbar_tab_actionbar" parent="miui:Widget.ActionBar">
+        <item name="miui:tabIndicator">@null</item>
+    </style>
+    <!-- CODE-END ActionBarTabActionBarStyle -->
+    <!-- CODE-BEGIN ActionBarTabStyle -->
+    <style name="actionbar_tab">
+        <!-- set the layout_weight = \"1\" -->
+        <item name="android:layout_weight">1.0</item>
+        <!-- set the align center|left|right -->
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_bg_light</item>
+    </style>
+    <!-- CODE-END ActionBarTabStyle -->
+    <!-- CODE-BEGIN ActionBarTabBarStyle -->
+    <style name="actionbar_tabbar">
+        <item name="android:background">#ffdfffc3</item>
+        <item name="android:height">70dip</item>
+    </style>
+    <!-- CODE-END ActionBarTabBarStyle -->
+    <!-- CODE-BEGIN ActionBarTabTextStyle -->
+    <style name="actionbar_tabtext">
+        <item name="android:textColor">#ff0a0988</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- CODE-END ActionBarTabTextStyle -->
+
+    <!-- CODE-BEGIN ActionBarSplitStyle -->
+    <style name="actionbar_split" parent="miui:Widget.ActionBar.Split">
+        <item name="android:height">80dp</item>
+        <!--MUST SET TO @null, Otherwise, in phone, it will cover the content area -->
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <!-- CODE-END ActionBarSplitStyle -->
+
+    <!-- CODE-BEGIN ActionBarActionButtonStyle -->
+    <style name="actionbar_action_button" parent="miui:Widget.ActionButton">
+        <item name="android:textColor">#ff880088</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!-- CODE-END ActionBarActionButtonStyle -->
+
+    <!-- CODE-BEGIN ActionBarActionOverflowButtonStyle -->
+    <style name="actionbar_action_button_more" parent="miui:Widget.ActionButton.Overflow">
+        <item name="android:textColor">#ff880088</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!-- CODE-END ActionBarActionOverflowButtonStyle -->
+
+    <!-- CODE-BEGIN ActionBarPopupMenuTitleTextStyle -->
+    <style name="actionbar_popupmenu_titletext" parent="miui:TextAppearance.Widget.PopupMenu.Large">
+        <item name="android:textColor">#ff880088</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!-- CODE-END ActionBarPopupMenuTitleTextStyle -->
+    <!-- CODE-BEGIN ActionBarPopupMenuShortcurTextStyle -->
+    <style name="actionbar_popupmenu_shortcuttext" parent="miui:TextAppearance.Widget.PopupMenu.Small">
+        <item name="android:textColor">#ff888888</item>
+    </style>
+    <!-- CODE-END ActionBarPopupMenuShortcurTextStyle -->
+    <!-- CODE-BEGIN ActionBarPopupMenuWindowStyle -->
+    <style name="actionbar_popupmenu_window" parent="*miui:Widget.PopupMenu">
+        <item name="android:dropDownSelector">@null</item>
+        <item name="android:popupBackground">#88ccffcc</item>
+        <item name="android:dropDownVerticalOffset">10dip</item>
+        <item name="android:dropDownHorizontalOffset">10dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="actionbar_popupmenu_dropdownlistview" parent="miui:Widget.ListView">
+        <item name="android:background">@color/action_bar_splitbar_bg_color</item>
+    </style>
+    <!-- CODE-END ActionBarPopupMenuWindowStyle -->
+
+    <!-- CODE-BEGIN ActionBarActionModeStyle -->
+    <style name="actionbar_actionmode" parent="miui:Widget.ActionMode">
+        <item name="android:height">80dp</item>
+        <item name="android:titleTextStyle">@style/actionbar_title_text</item>
+        <item name="android:subtitleTextStyle">@style/actionbar_subtitle_text</item>
+    </style>
+    <!-- CODE-END ActionBarActionModeStyle -->
+    <!-- CODE-BEGIN ActionBarActionModeButtonStyle -->
+    <style name="actionbar_actionmode_button" parent="miui:Widget.ActionMode.Button">
+        <item name="android:textColor">#ff0a0988</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- CODE-END ActionBarActionModeButtonStyle -->
+    <!-- CODE-BEGIN ActionBarActionModeDefultButtonStyle -->
+    <style name="actionbar_actionmode_button_default" parent="miui:Widget.ActionMode.Button.Default">
+        <item name="android:textColor">#ff58a7ff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!-- CODE-END ActionBarActionModeDefultButtonStyle -->
+    <!-- CODE-BEGIN ActionBarActionModeActionButtonStyle -->
+    <style name="actionbar_actionmode_actionbutton" parent="miui:Widget.ActionMode.ActionButton">
+        <item name="android:textColor">#ff881b14</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!-- CODE-END ActionBarActionModeActionActionButtonStyle -->
+    <!-- CODE-BEGIN ActionBarSearchActionModeTextStyle -->
+    <style name="actionbar_search_text" parent="miui:Widget.EditText.Search">
+        <item name="android:textColor">#ffff5533</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- CODE-END ActionBarSearchActionModeTextStyle -->
+
+    <!-- CODE-BEGIN DialogTitleStyle -->
+    <style name="dialog_title" parent="*miui:Widget.DialogTitle">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#ffff0000</item>
+    </style>
+    <!-- CODE-END DialogTitleStyle -->
+
+    <!-- CODE-BEGIN DialogContentStyle -->
+    <style name="dialog_content" parent="miui:TextAppearance.Medium">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <!-- CODE-END DialogContentStyle -->
+
+    <!-- CODE-BEGIN DialogButtonStyle -->
+    <style name="dialog_buttonbar_button" parent="miui:Widget.Button.Dialog">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@android:color/holo_green_light</item>
+    </style>
+    <!-- CODE-END DialogButtonStyle -->
+
+    <!-- CODE-BEGIN DialogDefaultButtonStyle -->
+    <style name="dialog_buttonbar_button_default" parent="miui:Widget.Button.Dialog.Default">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@android:color/holo_green_light</item>
+    </style>
+    <!-- CODE-END DialogDefaultButtonStyle -->
+
+     <!-- CODE-BEGIN DialogProgressBarStyle -->
+    <style name="dialog_progressbar" parent="miui:Widget.ProgressBar">
+        <item name="android:minWidth">56dp</item>
+        <item name="android:maxWidth">56dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:maxHeight">56dp</item>
+    </style>
+    <!-- CODE-END DialogProgressBarStyle -->
+
+    <!-- CODE-BEGIN DialogProgressBarHorizontalStyle -->
+    <style name="dialog_progressbar_horizontal" parent="miui:Widget.ProgressBar.Horizontal">
+        <item name="android:background">#ff00ff00</item>
+    </style>
+    <!-- CODE-END DialogProgressBarHorizontalStyle -->
+
+    <!-- CODE-BEGIN DialogCustomTitleStyle -->
+    <style name="dialog_custom_title" parent="*miui:Widget.DialogTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#fffb6003</item>
+    </style>
+    <!-- CODE-END DialogCustomTitleStyle -->
+
+    <!-- CODE-BEGIN DialogDatePickerTitleStyle -->
+    <style name="dialog_date_picker_title" parent="*miui:Widget.DialogTitle">
+        <item name="android:textSize">28sp</item>
+    </style>
+    <!-- CODE-END DialogDatePickerTitleStyle -->
+
+</resources>

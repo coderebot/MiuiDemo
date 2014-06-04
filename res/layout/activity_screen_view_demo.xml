@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <view
+        class="miui.widget.ScreenView"
+        android:id="@+id/screen_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/spinner_transition_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/entries_transition_type" />
+        <Button
+            android:id="@+id/btn_action_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_add_screen" />
+        <Button
+            android:id="@+id/btn_action_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_remove_screen" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/spinner_screen_width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/entries_screen_width" />
+        <CheckBox
+            android:id="@+id/checkbox_scroll_whole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkbx_scroll_whole" />
+    </LinearLayout>
+</LinearLayout>

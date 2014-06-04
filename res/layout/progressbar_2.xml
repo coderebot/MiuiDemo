@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013, Xiaomi Inc. All rights reserved.
+ */
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <view class="miui.widget.ProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:id="@+android:id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp" />
+
+    <view class="miui.widget.ProgressBar"
+        style="?android:attr/progressBarStyleSmall"
+        android:id="@+android:id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp" />
+
+    <view class="miui.widget.ProgressBar"
+        android:id="@+id/progress_horizontal"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
+
+</LinearLayout>
